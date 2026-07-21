@@ -9,7 +9,7 @@ A machine learning pipeline that classifies Mediterranean wildfire sizes (small,
 
 Wildfires in the Mediterranean are intensifying due to climate change. Predicting their severity ahead of time helps fire agencies allocate resources before fires grow. This project was completed for a graduate AI course at Purdue University and uses the [Mesogeos datacube](https://orionlab.space.noa.gr/mesogeos/). It is a 648GB harmonized dataset of meteorological, vegetation, and soil moisture data covering the Mediterranean at 1km/daily resolution from 2006 to 2022. The goal is to classify expected wildfire sizes from environmental conditions.
 
-The pipeline predicts whether a fire will be **small** (<100 ha), **medium** (100-500 ha), or **large** (>500 ha). It also generates risk maps that highlight priority regions for fire management planning.
+The pipeline predicts whether a fire will be **small** (<100 ha), **medium** (100-500 ha), or **large** (>500 ha). It also generates risk maps that highlight priority regions for fire management planning. A full writeup of the methodology and results is available in [the project paper](./Mesogeos_Paper.pdf).
 
 ## Key Results
 
